@@ -37,7 +37,7 @@ docker exec -it clab-lab1-part1-host1 bash
 It may be useful to create some aliases for running the various containers.  e.g., below we create an alias for the prefix for all commands to run insied of the host1 container.  We can then just say host1 <command> to execute a command inside of that container.
 
 ```
-alias host1=“docker exec -it clab-lab1-part1-host1”
+alias host1="docker exec -it clab-lab1-part1-host1"
 host1 ifconfig
 ```
 # Cleaning up
